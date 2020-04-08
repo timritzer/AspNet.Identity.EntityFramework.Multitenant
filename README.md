@@ -1,17 +1,9 @@
-ASP.NET Identity EntityFramework Multitenant
+ASP.NET Core Identity EntityFramework Multitenant
 ============================================
 
-[![NuGet Version](https://img.shields.io/nuget/v/AspNet.Identity.EntityFramework.Multitenant.svg)](https://www.nuget.org/packages/AspNet.Identity.EntityFramework.Multitenant/ "NuGet Version") [![NuGet Downloads](https://img.shields.io/nuget/dt/AspNet.Identity.EntityFramework.Multitenant.svg)](https://www.nuget.org/packages/AspNet.Identity.EntityFramework.Multitenant/ "NuGet Downloads") [![Build status](https://img.shields.io/appveyor/ci/JSkimming/aspnet-identity-entityframework-multitenant.svg)](https://ci.appveyor.com/project/JSkimming/aspnet-identity-entityframework-multitenant "Build status") [![Latest release](https://img.shields.io/github/release/JSkimming/AspNet.Identity.EntityFramework.Multitenant.svg)](https://github.com/JSkimming/AspNet.Identity.EntityFramework.Multitenant/releases "Latest release")
+Multi-tenant support for ASP.NET Core Identity using Entity Framework
 
-Multi-tenant support for ASP.NET Identity using Entity Framework
-
-This library was created to solve a problem I asked on [Stack Overflow](http://stackoverflow.com/q/20037145 "How to implement Multi-tenant User Login using ASP.NET Identity"), it was needed for a commercial project, this part has been open sourced in the hope that it may receive improvements and future support by receiving wider usage.
-
-It is available to download as a [NuGet package](http://www.nuget.org/packages/AspNet.Identity.EntityFramework.Multitenant/ "AspNet.Identity.EntityFramework.Multitenant").
-
-Additionally a Continious integration Build NuGet feed is also provided by [AppVeyor](http://www.appveyor.com/)
-https://ci.appveyor.com/nuget/aspnet-identity-entityframewor-avbe23sgoogy
-Add this feed to your [NuGet Configuration Settings](http://docs.nuget.org/docs/reference/nuget-config-settings) to include the CI build, which includes yet to be accepted pull requests.
+This library is a fork of the original AspNet.Identity.EntityFramework.Multitenant updated to support Identity in .Net Core
 
 ## How to use multi-tenancy
 
